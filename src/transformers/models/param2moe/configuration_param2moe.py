@@ -1,6 +1,6 @@
 """Param2MoE model configuration"""
 
-from transformers.configuration_utils import PretrainedConfig
+from ...configuration_utils import PreTrainedConfig
 
 class Param2MoEConfig(PretrainedConfig):
     def __init__(
