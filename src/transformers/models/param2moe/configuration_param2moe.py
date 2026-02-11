@@ -12,10 +12,10 @@ class Param2MoEConfig(PretrainedConfig):
         num_attention_heads=16,
         num_key_value_heads=4,
         hidden_act="silu",
-        use_qkv_bias=False,  # bailing only
-        use_bias=False,  # bailing only
+        use_qkv_bias=False,
+        use_bias=False,
         rms_norm_eps=1e-06,
-        tie_word_embeddings=False,  # PretrainedConfig key, here change default value.
+        tie_word_embeddings=False,
         embedding_dropout=0.0,
         attention_dropout=0.0,
         output_dropout=0.0,
