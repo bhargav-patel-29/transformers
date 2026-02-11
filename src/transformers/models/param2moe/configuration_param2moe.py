@@ -2,7 +2,7 @@
 
 from ...configuration_utils import PreTrainedConfig
 
-class Param2MoEConfig(PretrainedConfig):
+class Param2MoEConfig(PreTrainedConfig):
     def __init__(
         self,
         vocab_size=157184,
